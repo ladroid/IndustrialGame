@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://tileset/tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://scenes/Hero.tscn" type="PackedScene" id=2]
+
+[node name="Map" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 15, 15 )
+cell_custom_transform = Transform2D( 16, 0, 0, 16, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 2555904, 0, 0, 2555905, 2, 0, 2555906, 2, 0, 2555907, 2, 0, 2555908, 2, 0, 2555909, 2, 0, 2555910, 2, 0, 2555911, 2, 0, 2555912, 3, 0, 2555913, 7, 0, 2555914, 8, 0, 2555915, 8, 0, 2555916, 9, 0, 2555917, 9, 0, 2555918, 10, 0, 2555919, 10, 0, 2555920, 5, 0 )
+
+[node name="Hero" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3.41133, 576.66 )

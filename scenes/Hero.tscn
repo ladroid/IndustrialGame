@@ -1,0 +1,51 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://sprite/run/5.png" type="Texture" id=1]
+[ext_resource path="res://sprite/run/8.png" type="Texture" id=2]
+[ext_resource path="res://sprite/run/4.png" type="Texture" id=3]
+[ext_resource path="res://sprite/run/7.png" type="Texture" id=4]
+[ext_resource path="res://sprite/run/6.png" type="Texture" id=5]
+[ext_resource path="res://sprite/idle/8.png" type="Texture" id=6]
+[ext_resource path="res://sprite/idle/3.png" type="Texture" id=7]
+[ext_resource path="res://sprite/run/1.png" type="Texture" id=8]
+[ext_resource path="res://sprite/run/2.png" type="Texture" id=9]
+[ext_resource path="res://sprite/run/3.png" type="Texture" id=10]
+[ext_resource path="res://sprite/idle/4.png" type="Texture" id=11]
+[ext_resource path="res://sprite/idle/6.png" type="Texture" id=12]
+[ext_resource path="res://sprite/idle/7.png" type="Texture" id=13]
+[ext_resource path="res://sprite/idle/5.png" type="Texture" id=14]
+[ext_resource path="res://sprite/idle/1.png" type="Texture" id=15]
+[ext_resource path="res://sprite/idle/2.png" type="Texture" id=16]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 7 ), ExtResource( 11 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "idle",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 3 ), ExtResource( 1 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "run",
+"speed": 15.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 5.10964, 7.64828 )
+
+[node name="Hero" type="KinematicBody2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -0.625662, -0.625662 )
+scale = Vector2( 1.12, 1.11769 )
+frames = SubResource( 1 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.0140409, -0.837422 )
+shape = SubResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.3, 0.3 )
+smoothing_enabled = true
