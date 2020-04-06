@@ -51,3 +51,6 @@ shape = SubResource( 2 )
 current = true
 zoom = Vector2( 0.3, 0.3 )
 smoothing_enabled = true
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 10.9219, 0 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://sprite/industrial.v1.png" type="Texture" id=1]
 
@@ -7,6 +7,9 @@ extents = Vector2( 8.00045, 5.58495 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 7.96639, 1.63928 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 7.88689, 7.87628 )
 
 [node name="GenMap" type="Node2D"]
 
@@ -1265,22 +1268,6 @@ visible = false
 shape = SubResource( 1 )
 disabled = true
 
-[node name="Mirror00" type="Sprite" parent="."]
-position = Vector2( 65.1954, 568.752 )
-texture = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 336, 160, 16, 16 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="StaticBody2D" type="StaticBody2D" parent="Mirror00"]
-visible = false
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror00/StaticBody2D"]
-shape = SubResource( 1 )
-disabled = true
-
 [node name="Platformer00" type="Sprite" parent="."]
 position = Vector2( 0.963152, 285.403 )
 texture = ExtResource( 1 )
@@ -1310,3 +1297,18 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Platformer01/StaticBody2D"]
 position = Vector2( 0.0247755, 2.57001 )
 shape = SubResource( 2 )
+
+[node name="Mirror00" type="Sprite" parent="."]
+position = Vector2( 64.4532, 567.763 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 160, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Mirror00"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror00/StaticBody2D"]
+shape = SubResource( 3 )
+disabled = true
