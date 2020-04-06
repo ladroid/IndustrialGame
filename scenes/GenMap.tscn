@@ -913,6 +913,374 @@ visible = false
 shape = SubResource( 1 )
 disabled = true
 
+[node name="Trumpet00" type="Sprite" parent="."]
+position = Vector2( 35.0725, 427.848 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet00"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet00/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet01" type="Sprite" parent="."]
+position = Vector2( 65.1674, 427.484 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 208, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet01"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet01/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet02" type="Sprite" parent="."]
+position = Vector2( 0.656021, 446.194 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet02"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet02/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet03" type="Sprite" parent="."]
+position = Vector2( 35.2808, 445.951 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 208, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet03"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet03/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet04" type="Sprite" parent="."]
+position = Vector2( 64.8029, 445.951 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet04"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet04/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet05" type="Sprite" parent="."]
+position = Vector2( -0.0729218, 465.511 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 176, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet05"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet05/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet06" type="Sprite" parent="."]
+position = Vector2( 32.7295, 470.492 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 176, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet06"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet06/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet07" type="Sprite" parent="."]
+position = Vector2( 63.4665, 469.277 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet07"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet07/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet08" type="Sprite" parent="."]
+position = Vector2( 1.0205, 486.285 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 208, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet08"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet08/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet09" type="Sprite" parent="."]
+position = Vector2( 35.2808, 486.285 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet09"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet09/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet10" type="Sprite" parent="."]
+position = Vector2( 64.074, 486.893 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet10"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet10/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet11" type="Sprite" parent="."]
+position = Vector2( -0.315895, 504.873 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 240, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet11"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet11/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet12" type="Sprite" parent="."]
+position = Vector2( 32.851, 502.93 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 240, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet12"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet12/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet13" type="Sprite" parent="."]
+position = Vector2( 63.7095, 503.294 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 112, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet13"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet13/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet14" type="Sprite" parent="."]
+position = Vector2( -0.801849, 519.574 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 128, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet14"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet14/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet15" type="Sprite" parent="."]
+position = Vector2( 32.9725, 523.583 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet15"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet15/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet16" type="Sprite" parent="."]
+position = Vector2( 63.9525, 523.583 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 240, 144, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet16"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet16/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet17" type="Sprite" parent="."]
+position = Vector2( -1.28781, 544.236 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 240, 160, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet17"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet17/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet18" type="Sprite" parent="."]
+position = Vector2( 32.2435, 544.236 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 240, 176, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet18"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet18/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trumpet19" type="Sprite" parent="."]
+position = Vector2( 63.2183, 544.764 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 224, 192, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trumpet19"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet19/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trap00" type="Sprite" parent="."]
+position = Vector2( -0.840149, 566.775 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 32, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trap00"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trap00/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Trap01" type="Sprite" parent="."]
+position = Vector2( 31.7163, 568.225 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 192, 48, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Trap01"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Trap01/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Mirror00" type="Sprite" parent="."]
+position = Vector2( 65.1954, 568.752 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 336, 160, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Mirror00"]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror00/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
 [node name="Platformer00" type="Sprite" parent="."]
 position = Vector2( 0.963152, 285.403 )
 texture = ExtResource( 1 )
