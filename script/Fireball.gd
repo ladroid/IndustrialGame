@@ -3,6 +3,7 @@ extends KinematicBody2D
 var velocity = Vector2()
 const speed = 10000
 var direction = 1
+#var direction = Vector2()
 
 func set_fireball_direction(dir):
 	direction = dir
@@ -10,8 +11,13 @@ func set_fireball_direction(dir):
 		$AnimatedSprite.flip_h = true
 
 func _physics_process(delta):
-	velocity.x = speed * delta * direction
-	#translate(velocity)
+	"""velocity.x = speed * delta * direction
+	move_and_slide(velocity)
+	if get_slide_count() > 0:
+		var collision = get_slide_collision(0)
+		if collision != null:
+			direction = direction.bounce(collision.normal)"""
+	velocity.x = speed * delta
 	var collision = move_and_collide(velocity * delta)
 	$AnimatedSprite.play("fire")
 	if collision:

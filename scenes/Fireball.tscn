@@ -12,27 +12,24 @@ animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 5 ), ExtResource( 1 ), ExtResource( 4 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "fire",
-"speed": 10.0
+"speed": 15.0
 } ]
 
 [sub_resource type="CircleShape2D" id=2]
-radius = 3.08953
+radius = 11.52
 
-[node name="Fireball" type="KinematicBody2D"]
+[node name="KinematicBody2D" type="KinematicBody2D"]
 script = ExtResource( 6 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-scale = Vector2( 0.0231355, 0.0215018 )
+scale = Vector2( 0.023, 0.022 )
 frames = SubResource( 1 )
 animation = "fire"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.255, 0.255 )
 shape = SubResource( 2 )
 
 [node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
-position = Vector2( -0.0370831, -0.0927074 )
-scale = Vector2( 0.25463, 0.293568 )
-[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+position = Vector2( -0.152961, 0 )
+scale = Vector2( 0.36849, 0.335712 )
