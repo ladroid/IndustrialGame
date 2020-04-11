@@ -202,7 +202,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Gate00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -218,7 +217,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Gate01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -234,7 +232,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Gate02"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate02/StaticBody2D"]
 shape = SubResource( 1 )
@@ -250,7 +247,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Gate03"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate03/StaticBody2D"]
 shape = SubResource( 1 )
@@ -416,7 +412,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -432,7 +427,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -448,7 +442,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick02"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick02/StaticBody2D"]
 shape = SubResource( 1 )
@@ -464,7 +457,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick03"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick03/StaticBody2D"]
 shape = SubResource( 1 )
@@ -480,7 +472,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick04"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick04/StaticBody2D"]
 shape = SubResource( 1 )
@@ -496,7 +487,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick05"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick05/StaticBody2D"]
 shape = SubResource( 1 )
@@ -512,7 +502,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick06"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick06/StaticBody2D"]
 shape = SubResource( 1 )
@@ -528,7 +517,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick07"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick07/StaticBody2D"]
 shape = SubResource( 1 )
@@ -544,7 +532,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick08"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick08/StaticBody2D"]
 shape = SubResource( 1 )
@@ -560,7 +547,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick09"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick09/StaticBody2D"]
 shape = SubResource( 1 )
@@ -576,7 +562,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick10"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick10/StaticBody2D"]
 shape = SubResource( 1 )
@@ -592,10 +577,10 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Chain00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Chain00/StaticBody2D"]
 shape = SubResource( 1 )
+disabled = true
 
 [node name="Chain01" type="Sprite" parent="."]
 position = Vector2( 34.2136, 307.801 )
@@ -607,10 +592,10 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Chain01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Chain01/StaticBody2D"]
 shape = SubResource( 1 )
+disabled = true
 
 [node name="Stick11" type="Sprite" parent="."]
 position = Vector2( 36.566, 265.396 )
@@ -622,7 +607,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick11"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick11/StaticBody2D"]
 shape = SubResource( 1 )
@@ -638,7 +622,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Stick12"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Stick12/StaticBody2D"]
 shape = SubResource( 1 )
@@ -654,7 +637,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="InfoBoard00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InfoBoard00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -670,7 +652,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="InfoBoard01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InfoBoard01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -686,7 +667,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="InfoBoard02"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InfoBoard02/StaticBody2D"]
 shape = SubResource( 1 )
@@ -702,7 +682,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="InfoBoard03"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InfoBoard03/StaticBody2D"]
 shape = SubResource( 1 )
@@ -718,7 +697,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="InfoBoard04"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InfoBoard04/StaticBody2D"]
 shape = SubResource( 1 )
@@ -734,7 +712,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -750,7 +727,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -766,7 +742,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine02"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine02/StaticBody2D"]
 shape = SubResource( 1 )
@@ -782,7 +757,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine03"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine03/StaticBody2D"]
 shape = SubResource( 1 )
@@ -798,7 +772,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine04"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine04/StaticBody2D"]
 shape = SubResource( 1 )
@@ -814,7 +787,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine05"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine05/StaticBody2D"]
 shape = SubResource( 1 )
@@ -830,7 +802,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine06"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine06/StaticBody2D"]
 shape = SubResource( 1 )
@@ -846,7 +817,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine07"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine07/StaticBody2D"]
 shape = SubResource( 1 )
@@ -862,7 +832,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine08"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine08/StaticBody2D"]
 shape = SubResource( 1 )
@@ -878,7 +847,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine09"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine09/StaticBody2D"]
 shape = SubResource( 1 )
@@ -894,7 +862,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine10"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine10/StaticBody2D"]
 shape = SubResource( 1 )
@@ -910,7 +877,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Engine11"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Engine11/StaticBody2D"]
 shape = SubResource( 1 )
@@ -926,7 +892,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -942,7 +907,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -958,7 +922,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet02"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet02/StaticBody2D"]
 shape = SubResource( 1 )
@@ -974,7 +937,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet03"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet03/StaticBody2D"]
 shape = SubResource( 1 )
@@ -990,7 +952,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet04"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet04/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1006,7 +967,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet05"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet05/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1022,7 +982,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet06"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet06/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1038,7 +997,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet07"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet07/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1054,7 +1012,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet08"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet08/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1070,7 +1027,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet09"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet09/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1086,7 +1042,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet10"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet10/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1102,7 +1057,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet11"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet11/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1118,7 +1072,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet12"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet12/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1134,7 +1087,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet13"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet13/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1150,7 +1102,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet14"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet14/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1166,7 +1117,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet15"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet15/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1182,7 +1132,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet16"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet16/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1198,7 +1147,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet17"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet17/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1214,7 +1162,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet18"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet18/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1230,7 +1177,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trumpet19"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trumpet19/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1246,7 +1192,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trap00"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trap00/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1262,7 +1207,6 @@ __meta__ = {
 }
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Trap01"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Trap01/StaticBody2D"]
 shape = SubResource( 1 )
@@ -1311,4 +1255,3 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Mirror00/StaticBody2D"]
 shape = SubResource( 3 )
-disabled = true

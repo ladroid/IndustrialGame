@@ -40,4 +40,4 @@ func _on_VisibilityNotifier2D_screen_exited():
 
 func _on_Area2D_body_entered(body):
 	if "TileMap" in body.name:
-		set_bounce(1)
+		set_bounce(0.5)

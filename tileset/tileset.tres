@@ -1,15 +1,18 @@
-[gd_resource type="TileSet" load_steps=5 format=2]
+[gd_resource type="TileSet" load_steps=6 format=2]
 
 [ext_resource path="res://sprite/industrial.v1.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 8.00045, 5.58495 )
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=4]
 extents = Vector2( 8.00045, 5.58495 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 7.96639, 1.63928 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 7.88689, 7.87628 )
 
 [resource]
 0/name = "Ground00"
@@ -546,7 +549,7 @@ extents = Vector2( 7.96639, 1.63928 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 4 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 8.07698, 10.2323 )
 } ]
 39/z_index = 0
@@ -562,7 +565,7 @@ extents = Vector2( 7.96639, 1.63928 )
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 3 ),
+"shape": SubResource( 4 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 8, 10.1553 )
 } ]
 40/z_index = 0
@@ -574,13 +577,7 @@ extents = Vector2( 7.96639, 1.63928 )
 41/tile_mode = 0
 41/occluder_offset = Vector2( 8, 8 )
 41/navigation_offset = Vector2( 8, 8 )
-41/shapes = [ {
-"autotile_coord": Vector2( 0, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 1 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 8, 8 )
-} ]
+41/shapes = [  ]
 41/z_index = 0
 42/name = "Chain01"
 42/texture = ExtResource( 1 )
@@ -590,13 +587,7 @@ extents = Vector2( 7.96639, 1.63928 )
 42/tile_mode = 0
 42/occluder_offset = Vector2( 8, 8 )
 42/navigation_offset = Vector2( 8, 8 )
-42/shapes = [ {
-"autotile_coord": Vector2( 0, 0 ),
-"one_way": false,
-"one_way_margin": 1.0,
-"shape": SubResource( 1 ),
-"shape_transform": Transform2D( 1, 0, 0, 1, 8, 8 )
-} ]
+42/shapes = [  ]
 42/z_index = 0
 43/name = "Platformer00"
 43/texture = ExtResource( 1 )
@@ -1028,5 +1019,11 @@ extents = Vector2( 7.96639, 1.63928 )
 84/tile_mode = 0
 84/occluder_offset = Vector2( 8, 8 )
 84/navigation_offset = Vector2( 8, 8 )
-84/shapes = [  ]
+84/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 8, 8 )
+} ]
 84/z_index = 0
