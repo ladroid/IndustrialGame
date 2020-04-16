@@ -10,9 +10,11 @@ func set_fireball_direction(dir):
 	if dir == -1:
 		$AnimatedSprite.flip_h = true
 
-func _physics_process(delta):
-	velocity.x = speed * delta * direction
-	set_linear_velocity(velocity)
+func _integrate_forces(state):
+	#velocity.x = speed * direction
+	#set_linear_velocity(velocity)
+	
+	state.set_linear_velocity(Vector2(cos(90 * (PI/180)), sin(90 * (PI/180))*-speed))
 	#set_bounce(1)
 	$AnimatedSprite.play("fire")
 
@@ -34,8 +36,8 @@ func _physics_process(delta):
 	
 
 
-func _on_VisibilityNotifier2D_screen_exited():
-	queue_free()
+func _on_VisibilityNotifier2D_screen_exited(): pass
+	#queue_free()
 
 
 func _on_Area2D_body_entered(body):

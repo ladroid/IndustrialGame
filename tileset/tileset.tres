@@ -11,8 +11,9 @@ extents = Vector2( 8.00045, 5.58495 )
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 7.96639, 1.63928 )
 
-[sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 7.88689, 7.87628 )
+[sub_resource type="SegmentShape2D" id=3]
+a = Vector2( -5.49758, -5.8606 )
+b = Vector2( 5.7341, 5.13715 )
 
 [resource]
 0/name = "Ground00"

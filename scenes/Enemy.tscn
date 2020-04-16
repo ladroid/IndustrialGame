@@ -1,0 +1,38 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://sprite/enemy/rob/2.png" type="Texture" id=1]
+[ext_resource path="res://sprite/enemy/rob/1.png" type="Texture" id=2]
+[ext_resource path="res://sprite/enemy/rob/3.png" type="Texture" id=3]
+[ext_resource path="res://sprite/enemy/rob/4.png" type="Texture" id=4]
+[ext_resource path="res://script/Enemy.gd" type="Script" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "enemy_rob",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 11.7752, 11.7733 )
+
+[node name="Enemy" type="KinematicBody2D"]
+script = ExtResource( 5 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 4.84083, 5.525 )
+scale = Vector2( 1.69155, 1.69062 )
+frames = SubResource( 1 )
+animation = "enemy_rob"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 4.81348, 5.07034 )
+shape = SubResource( 2 )
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2( 0, 1.09503 )
+enabled = true
+cast_to = Vector2( 0, 17 )
+
+[node name="Timer" type="Timer" parent="."]
