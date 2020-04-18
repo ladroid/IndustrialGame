@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://tileset/tileset.tres" type="TileSet" id=1]
 [ext_resource path="res://scenes/Hero.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/Enemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/Switcher.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/Spikes.tscn" type="PackedScene" id=5]
 
 [node name="Map" type="Node2D"]
 
@@ -22,3 +23,6 @@ position = Vector2( 84.0265, 558.188 )
 
 [node name="Switcher" parent="." instance=ExtResource( 4 )]
 position = Vector2( 639.27, 578.621 )
+
+[node name="Spikes" parent="Switcher" instance=ExtResource( 5 )]
+position = Vector2( 36.2589, 5.25891 )
