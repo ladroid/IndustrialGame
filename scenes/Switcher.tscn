@@ -15,12 +15,12 @@ animations = [ {
 "frames": [ ExtResource( 5 ) ],
 "loop": true,
 "name": "on",
-"speed": 5.0
+"speed": 0.0
 }, {
 "frames": [ ExtResource( 1 ) ],
 "loop": true,
 "name": "off",
-"speed": 5.0
+"speed": 0.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]

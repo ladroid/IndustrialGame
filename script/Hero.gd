@@ -2,7 +2,8 @@ extends KinematicBody2D
 
 const gravity = 10
 const FLOOR = Vector2(0, -1)
-const fireball = preload("res://scenes/Fireball.tscn")
+#const fireball = preload("res://scenes/Fireball.tscn") #USE IT!!!
+const fireball = preload("res://scenes/Ffireball.tscn")
 
 var velocity = Vector2()
 var on_ground = false

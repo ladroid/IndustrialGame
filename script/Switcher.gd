@@ -10,21 +10,17 @@ func _physics_process(delta):
 	pass
 
 func switcher_on_off():
+	on = true
 	if on == true and off == false:
-		print("A")
+		print("A<-\n\n")
 		$AnimatedSprite.play("on")
 		on = false
 		off = true
 	if on == false and off == true:
-		print("B")
+		print("->B\n\n")
 		$AnimatedSprite.play("off")
-		on = true
 		off = false
-	if on == false and off == false:
-		$AnimatedSprite.play("idle")
 		on = true
-		off = true
-		print("C")
 
 func _on_Area2D_body_entered(body):
 	if "Hero" in body.name:
